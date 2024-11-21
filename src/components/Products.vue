@@ -1,74 +1,20 @@
 <template>
-    <v-container>
-
+<v-container>
 <v-row>
 
-  <!-- crudApp -->
-  <v-col cols="6">
+<v-col cols="12">
 
-  <v-card class="mx-auto" max-width="344">
-    <a href="https://github.com/KazumaWada/myapp" target="_blank">
-    <v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover></v-img>
-    <v-card-title>
-    ブログ投稿サービス(CRUD app)
-    </v-card-title>
-    </a>
-    <v-card-subtitle>
-    CRUD機能が備わったブログ投稿サービス
-    </v-card-subtitle>
-  </v-card>
+  <div>
+  <li><a href="https://travelpackhub.com" target="_blank">travelpackhub.com</a> [<a href="https://github.com/KazumaWada/travelpackhub" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
+  <li><a href="https://thisjobdoesnotexistyet.com" target="_blank">thisjobdoesnotexistyet.com</a> [<a href="https://github.com/KazumaWada/thisjobdoesnotexistyet" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
+  <li>onedayoneline.com [<a href="https://github.com/KazumaWada/onedayoneline" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
+  <li>file directory system [<a href="https://github.com/KazumaWada/filedirectorysystem" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
+  <li>blog posting service [<a href="https://github.com/KazumaWada/myapp" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
+  <li><a href="https://text-snippet-sharing.vercel.app/" target="_blank">text snippet sharing service</a>[<a href="https://github.com/KazumaWada/text_snippet_sharing" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
+  <li>computer science note [<a href="https://github.com/KazumaWada/computer-science-note/tree/main/recursion" target="_blank"><i class="fa-brands fa-github"></i></a>]</li>
 
-  </v-col>
 
-       <!-- crudApp -->
-       <v-col cols="6">
-
-<v-card class="mx-auto" max-width="344">
-<a href="https://github.com/KazumaWada/myapp" target="_blank">
-<v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover></v-img>
-<v-card-title>
-ブログ投稿サービス(CRUD app)
-</v-card-title>
-</a>
-<v-card-subtitle>
-CRUD機能が備わったブログ投稿サービス
-</v-card-subtitle>
-</v-card>
-
-</v-col>
-
- <!-- crudApp -->
- <v-col cols="6">
-
-<v-card class="mx-auto" max-width="344">
-<a href="https://github.com/KazumaWada/myapp" target="_blank">
-<v-img height="200px" src="../img/fileDirectorySystem.png" cover></v-img>
-<v-card-title>
-ブログ投稿サービス
-</v-card-title>
-</a>
-<v-card-subtitle>
-簡単なコンソール操作を自作
-</v-card-subtitle>
-</v-card>
-
-</v-col>
-
- <!-- crudApp -->
- <v-col cols="6">
-
-<v-card class="mx-auto" max-width="344">
-<a href="https://github.com/KazumaWada/myapp" target="_blank">
-<v-img height="200px" src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg" cover></v-img>
-<v-card-title>
-ブログ投稿サービス(CRUD app)
-</v-card-title>
-</a>
-<v-card-subtitle>
-CRUD機能が備わったブログ投稿サービス
-</v-card-subtitle>
-</v-card>
-
+</div>
 </v-col>
 
 
@@ -80,7 +26,7 @@ CRUD機能が備わったブログ投稿サービス
 
 
 <v-container class="text-center" :style="{ color: '#4172B5' }">
-     <h1>読んでほしい記事</h1>
+     
 </v-container>
 </template>
 <style>

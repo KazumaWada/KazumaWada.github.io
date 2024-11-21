@@ -6,23 +6,29 @@ import AboutMe from './components/AboutMe.vue'
 </script>
 
 <template>
-<RouterLink to="/">Home</RouterLink>
-<RouterLink to="/about">About</RouterLink>
+<!-- <RouterLink to="/">Home</RouterLink>
+<RouterLink to="/about">About</RouterLink> -->
+
 <AboutMe />
   <!-- https://vuetifyjs.com/en/components/grids/#usage -->
         
    
 
-  <v-container class="text-center" :style="{ color: '#4172B5' }">
-     <h1>Products</h1>
-     <p :style="{ color: 'gray' }">作ったもの</p>
+  <!-- <v-container class="text-center" :style="{ color: '#4172B5' }"> -->
+  <v-container>
+     <h3>projects</h3>
   </v-container>
 
 
 
   <Products/> 
 
-
+<v-container>
+  <h3>Miscellaneous</h3>
+  <li><a href="https://note.com/imnotkatsuma" target="_blank">海外生活体験記</a></li>
+  <li><a href="https://kazfluent.com" target="_blank">カズマの「話せる英語」を身につけよう</a></li>
+</v-container>
+  
 
 
 

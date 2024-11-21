@@ -1,29 +1,31 @@
 <template>
 <v-container class="text-center" :style="{ color: '#4172B5' }">
-     <h1>Kazuma Wada</h1>
-     <p :style="{ color: 'gray' }">和田一真</p>
-    </v-container>
+</v-container>
 
 
 
   <v-container>
     <v-row justify="center">
 
-      <v-col cols="6" md="4">
+      <v-col cols="4" md="4">
         <v-img
           src="../me.jpg"
           class="rounded-image"
-          max-width="300"
+          max-width="250"
         ></v-img>
         <!-- <h2>Kazuma Wada</h2>
         <h4 :style="{ color: 'gray' }">(和田一真)</h4> -->
       </v-col>
 
-      <v-col cols="6" md="4">
+      <v-col cols="8" md="4">
         <ul class="no-bullets">
-          <li>GitHub: @KazumaWada</li>
-          <li>Zenn: @Kazumawada</li>
-          <li>Mail: kazumawadaa@gmail.com</li>
+          <!-- <h1 :style="{ color: '#4172B5' }">Kazuma Wada</h1> -->
+          <h2>Kazuma Wada</h2>
+          <p :style="{ color: 'gray' }">和田一真</p>
+          <br>
+          <i class="fa-brands fa-github"></i>,
+          <i class="fa-sharp fa-regular fa-envelope"></i>,
+          <i>zenn.dev</i>
         </ul>
       </v-col>
 
