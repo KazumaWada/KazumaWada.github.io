@@ -1,32 +1,51 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Products from './components/Products.vue'
+import AboutMe from './components/AboutMe.vue'
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+<RouterLink to="/">Home</RouterLink>
+<RouterLink to="/about">About</RouterLink>
+<AboutMe />
+  <!-- https://vuetifyjs.com/en/components/grids/#usage -->
+        
+   
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <v-container class="text-center" :style="{ color: '#4172B5' }">
+     <h1>Products</h1>
+     <p :style="{ color: 'gray' }">作ったもの</p>
+  </v-container>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
 
+
+  <Products/> 
+
+
+
+
+
+
+  
   <RouterView />
 </template>
 
 <style scoped>
-header {
+.no-bullets{
+  list-style: none;
+  padding: 0;
+}
+.rounded-image {
+  border-radius: 10%;
+  overflow: hidden; /* 画像が丸枠からはみ出ないようにします */
+}
+/* header {
   line-height: 1.5;
   max-height: 100vh;
-}
+} */
 
-.logo {
+/* .logo {
   display: block;
   margin: 0 auto 2rem;
 }
@@ -81,5 +100,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>

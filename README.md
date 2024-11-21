@@ -33,3 +33,6 @@ npm run build
 ```sh
 npm run lint
 ```
+
+vuetify3 doc
+https://vuetifyjs.com/en/getting-started/installation/#existing-projects
