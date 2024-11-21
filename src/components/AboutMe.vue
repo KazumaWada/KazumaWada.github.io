@@ -23,9 +23,10 @@
           <h2>Kazuma Wada</h2>
           <p :style="{ color: 'gray' }">和田一真</p>
           <br>
-          <i class="fa-brands fa-github"></i>,
-          <i class="fa-sharp fa-regular fa-envelope"></i>,
-          <i>zenn.dev</i>
+          <p><i class="fa-sharp fa-regular fa-envelope"></i>: kazumawadaa@gmail.com</p>
+          <p><i class="fa-brands fa-github"></i>: <a href="https://github.com/KazumaWada" target="_blank">@kazumawada</a></p>
+          <p>Zenn: <a href="https://zenn.dev/kazumawada" target="_blank">@kazumawada</a></p>
+        
         </ul>
       </v-col>
 
