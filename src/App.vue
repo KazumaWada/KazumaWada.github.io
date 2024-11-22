@@ -17,11 +17,12 @@ import AboutMe from './components/AboutMe.vue'
   <!-- <v-container class="text-center" :style="{ color: '#4172B5' }"> -->
   <v-container>
      <h3>projects</h3>
+     <Products/> 
   </v-container>
 
 
 
-  <Products/> 
+  
 
 <v-container>
   <h3>Miscellaneous</h3>
