@@ -9,7 +9,7 @@
 
       <v-col cols="4" md="4">
         <v-img
-          src="../me.jpg"
+          src="/images/me.jpg"
           class="rounded-image"
           max-width="250"
         ></v-img>
