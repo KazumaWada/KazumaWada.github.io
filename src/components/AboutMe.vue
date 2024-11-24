@@ -24,8 +24,8 @@
           <h2>Kazuma Wada</h2>
           <p :style="{ color: 'gray' }">和田一真 (ワダカズマ)</p>
           <br>
-          <p>大学卒業後、カナダ、ニュージーランド、オーストラリアと合計で3年間<a href="https://note.com/imnotkatsuma" target="_blank">海外生活</a>をし、その間に下記のようなwebアプリケーションを作成しました。
-          </p>
+          <p></p>
+          
           <!-- <p><i class="fa-sharp fa-regular fa-envelope"></i>: kazumawadaa@gmail.com</p>
           <p><i class="fa-brands fa-github"></i>: <a href="https://github.com/KazumaWada" target="_blank">@kazumawada</a></p>
           <p>Zenn: <a href="https://zenn.dev/kazumawada" target="_blank">@kazumawada</a></p> -->
