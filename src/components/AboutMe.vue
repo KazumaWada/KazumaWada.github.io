@@ -24,7 +24,7 @@
           <h2>Kazuma Wada</h2>
           <p :style="{ color: 'gray' }">和田一真 (ワダカズマ)</p>
           <br>
-          <p></p>
+          <p>👷🚧 This portfolio is currently under development. 🪚🏗️🚧🚨 </p>
           
           <!-- <p><i class="fa-sharp fa-regular fa-envelope"></i>: kazumawadaa@gmail.com</p>
           <p><i class="fa-brands fa-github"></i>: <a href="https://github.com/KazumaWada" target="_blank">@kazumawada</a></p>
