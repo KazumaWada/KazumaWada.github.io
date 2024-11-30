@@ -30,7 +30,7 @@ button:hover {
 
 
   <li>🛠️ <a href="https://thisjobdoesnotexistyet.com" target="_blank">thisjobdoesnotexistyet.com</a> <a href="https://github.com/KazumaWada/thisjobdoesnotexistyet" target="_blank"><i class="fa-brands fa-github"></i></a> <button @click="handleClick"> README</button> </li>
-  <li>🛠️<a href="https://onedayoneline.onrender.com/" target="_blank">onedayoneline.com</a> <a href="https://github.com/KazumaWada/onedayoneline" target="_blank"> <i class="fa-brands fa-github"></i></a> <button @click="handleClick"> README</button></li>
+  <li>🛠️ <a href="https://onedayoneline.onrender.com/" target="_blank">onedayoneline.com</a> <a href="https://github.com/KazumaWada/onedayoneline" target="_blank"> <i class="fa-brands fa-github"></i></a> <button @click="handleClick"> README</button></li>
   <li>☠️ file directory system <a href="https://github.com/KazumaWada/filedirectorysystem" target="_blank"> <i class="fa-brands fa-github"></i></a> <button @click="handleClick"> README</button></li>
   <li>☠️ blog posting service <a href="https://github.com/KazumaWada/myapp" target="_blank"><i class="fa-brands fa-github"></i></a> <button @click="toggleReadme('berlin-now')">{{ activeReadme === 'berlin-now' ? 'Close' : 'README' }}</button></li>
   <div v-if="activeReadme === 'berlin-now'">
