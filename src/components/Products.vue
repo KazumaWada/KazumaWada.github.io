@@ -4,7 +4,7 @@
 } */
 
 body {
-  background-color: #f2f5ff; /* グローバルに適用 */
+  /*background-color: #f2f5ff;  グローバルに適用 */
   margin: 0;
   padding: 0;
 }  
