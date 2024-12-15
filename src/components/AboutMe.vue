@@ -24,9 +24,7 @@
           <h2>Kazuma Wada</h2>
           <p :style="{ color: 'gray' }">和田一真 (ワダカズマ)</p>
           <br>
-          <p>👷🚧 This portfolio is currently under development. 🪚🏗️🚧🚨 </p>
-          <!-- 多分募集要領みたいなのに書く場所があるからいらないと思う。
-          <p>大学卒業後、海外で3年間色々なアルバイト(レストラン、ホテル、バイクメッセンジャー)をし、空き時間にwebアプリケーションを作成してきました。</p> -->
+          <!-- <p>👷🚧 This portfolio is currently under development. 🪚🏗️🚧🚨 </p> -->
           
           <!-- <p><i class="fa-sharp fa-regular fa-envelope"></i>: kazumawadaa@gmail.com</p>
           <p><i class="fa-brands fa-github"></i>: <a href="https://github.com/KazumaWada" target="_blank">@kazumawada</a></p>
